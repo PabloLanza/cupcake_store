@@ -68,6 +68,7 @@ cupcake_store/
 │
 ├── requirements.txt      → dependências do Python
 └── database.db           → banco SQLite gerado automaticamente
+```
 
 ⚙️ Instalação e Execução Local
 1️⃣ Clonar o repositório
