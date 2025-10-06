@@ -18,7 +18,7 @@ Desenvolver uma aplicação completa (front-end e back-end) que permita:
 ## 🧩 Arquitetura do Sistema (MVC)
 
 O sistema segue o padrão **Model-View-Controller (MVC)**:
-
+````
 /cupcake-store
 ├── frontend/ # Interface do usuário (HTML, CSS, JS)
 ├── backend/ # Regras de negócio e integração com o banco
@@ -29,9 +29,7 @@ O sistema segue o padrão **Model-View-Controller (MVC)**:
 ├── tests/ # Testes unitários e de integração
 ├── docs/ # Documentação e relatórios de validação
 └── README.md # Este arquivo
-
-yaml
-Copiar código
+````
 
 ---
 
