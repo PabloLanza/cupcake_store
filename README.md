@@ -72,38 +72,47 @@ cupcake_store/
 
 ⚙️ Instalação e Execução Local
 1️⃣ Clonar o repositório
-bash
-Copiar código
+````
 git clone https://github.com/seuusuario/cupcake_store.git
+````
+Navegue até a pasta 
+````
 cd cupcake_store
+````
 
 2️⃣ Criar e ativar ambiente virtual
-bash
-Copiar código
+````
 python -m venv venv
+````
 # Windows
+````
 venv\Scripts\activate
+````
 # Linux/Mac
+````
 source venv/bin/activate
+````
 
 3️⃣ Instalar dependências
-bash
-Copiar código
+````
 pip install -r requirements.txt
+````
 
 4️⃣ Executar o servidor
-bash
-Copiar código
+````
 python app.py
+````
 
 Acesse no navegador:
+````
 👉 http://127.0.0.1:5000/
+````
 
 🧪 Testes Automatizados
 Executar testes com pytest
-bash
-Copiar código
+````
 pytest tests -v
+````
 📋 Exemplos de testes incluídos:
 
 Registro e login de usuário
@@ -121,9 +130,9 @@ Order	id, user_id, status, total, created_at
 (futuras entidades: Review, Coupon, Inventory, Payment)
 
 🧩 Diagrama MVC Simplificado
-css
-Copiar código
+````
 [Usuário] ⇄ (HTML/CSS/JS) ⇄ [Flask Controller] ⇄ [Models/BD]
+````
 🛠️ Funcionalidades Implementadas
 Cliente
 Cadastro e login de usuário
